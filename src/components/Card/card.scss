@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+
+.card-box {
+  text-align: center;
+  margin: 2em;
+  // padding: 1em 0em;
+  font-family: "Roboto";
+  padding-bottom: 0px;
+  box-shadow: 5px 5px 15px;
+
+  .red {
+    background-color: #ff5722;
+  }
+
+  .green {
+    background: #4caf50;
+  }
+
+  .yellow {
+    background: #616161;
+  }
+
+  .title {
+    text-transform: uppercase;
+    padding: 0.6em;
+    color: white;
+  }
+
+  .status {
+    background-color: rgb(75, 75, 75);
+    text-transform: uppercase;
+    padding: 0.4em;
+    color: white;
+  }
+}
