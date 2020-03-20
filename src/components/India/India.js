@@ -1,26 +1,26 @@
 import React from "react";
-import "./home.style.scss";
+// import "./home.style.scss";
 import { useFetch } from "../../hooks/useFetch";
 import { Card } from "../Card/Card";
-export const Home = () => {
-  const url = "https://corona.lmao.ninja/all";
-  const globalData = useFetch(url);
+export const India = () => {
+  const url = "https://corona.lmao.ninja/countries/india";
+  const indiaData = useFetch(url);
   return (
     <div>
-      <h1 className='title'>World Details</h1>
+      <h1 className="title">India Details</h1>
       <div className="cards">
         <Card
-          data={globalData ? globalData.cases : "Loading.."}
+          data={indiaData ? indiaData.cases : "Loading.."}
           title="Total Infected"
           cls="Infected"
         />
         <Card
-          data={globalData ? globalData.recovered : "Loading.."}
+          data={indiaData ? indiaData.recovered : "Loading.."}
           title="Total Recovered"
           cls="recovered"
         />
         <Card
-          data={globalData ? globalData.deaths : "Loading.."}
+          data={indiaData ? indiaData.deaths : "Loading.."}
           title="Total Deaths"
           cls="death"
         />

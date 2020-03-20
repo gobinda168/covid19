@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0.5em;
-  margin-top: 5vh;
   // padding: 100px
+}
+
+.title {
+  font-family: "Roboto";
+  margin-top: 1em;
+  text-align: center;
+  text-transform: uppercase;
 }

@@ -1,7 +1,8 @@
 .navItem {
   color: white;
   text-transform: uppercase;
-  /* padding-left: 10px; */
+  /* padding-right: 0px; */
+  margin-right: 50px;
 }
 
 .navItem:hover {

@@ -5,9 +5,9 @@ export const Card = ({ data, title, cls }) => {
     <div className="card-box">
       <p
         className={
-          cls == "Infected"
+          cls === "Infected"
             ? `title red`
-            : cls == "recovered"
+            : cls === "recovered"
             ? "title green"
             : " title yellow"
         }
@@ -18,3 +18,4 @@ export const Card = ({ data, title, cls }) => {
     </div>
   );
 };
+

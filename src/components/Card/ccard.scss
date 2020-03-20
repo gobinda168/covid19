@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+
+.card {
+    margin: 1em;
+    text-align: center;
+    font-family: "Roboto";
+    padding: 1em;
+    // box-shadow: 5px 5px 15px;
+    .infected {
+        background-color: #ff5722;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        margin-bottom: 5px;
+    }
+
+    .recovered {
+        background-color: #4caf50;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        margin-bottom: 5px;
+
+    }
+
+    .deaths {
+        background-color: #bdbdbd;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        margin-bottom: 5px;
+
+    }
+}
